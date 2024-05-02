@@ -19,3 +19,4 @@ GumAddress gum_strip_code_address (GumAddress value);
 GumPtrauthSupport gum_query_ptrauth_support (void);
 
 #endif
+guint8 * gum_memory_read (gconstpointer address, gsize len, gsize * n_bytes_read);
